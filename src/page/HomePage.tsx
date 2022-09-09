@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Hello } from "../components/Hello";
+import { CounterFnComp } from "./CounterFnComp";
 
 export const HomePage = () => {
   return (
     <Style>
       <Hello></Hello>
+      <CounterFnComp></CounterFnComp>
     </Style>
   );
 };
